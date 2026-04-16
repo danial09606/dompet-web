@@ -8,10 +8,10 @@ export default function Footer() {
         </div>
 
         <div className="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms</a>
-          <a href="#">Support</a>
-          <a href="#">Twitter</a>
+          <a href="#privacy-policy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+          <a href="mailto:support@dbittechnologies.my">Support</a>
+          <a href="https://x.com/dompetsatoshi" target="_blank" rel="noopener noreferrer">Twitter</a>
           <a href="#">GitHub</a>
         </div>
 

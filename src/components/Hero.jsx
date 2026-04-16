@@ -20,7 +20,7 @@ export default function Hero() {
           <a className="btn btn-primary btn-lg" href="#download">Download on TestFlight</a>
           <span className="btn-wrap">
             <button className="btn btn-ghost btn-lg" disabled aria-disabled="true" title="Coming soon">
-              Integrate Dompet SDK
+              Dompet Pay SDK
             </button>
             <span className="soon-pill soon-pill-float">Soon</span>
           </span>
