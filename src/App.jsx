@@ -23,8 +23,11 @@ export default function App() {
 
   useEffect(() => {
     const onChange = () => {
-      setPage(getPage())
-      window.scrollTo(0, 0)
+      const next = getPage()
+      setPage((prev) => {
+        if (prev !== next) window.scrollTo(0, 0)
+        return next
+      })
     }
     window.addEventListener('hashchange', onChange)
     return () => window.removeEventListener('hashchange', onChange)
